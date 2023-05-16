@@ -8,6 +8,7 @@ Developed by Sunil Park
 */
 
 import Column from "./components/Column";
+import Cover from "./components/Cover";
 import Menu from "./components/Menu";
 function App() {
   const state = [
@@ -15,8 +16,10 @@ function App() {
     { status: "pending", bg: "rgb(194, 167, 167)", id: 1 },
     { status: "completed", bg: "rgb(180, 207, 167)", id: 2 },
   ];
+
   return (
     <div className="App">
+      <Cover />
       <Menu />
       {state.map((item) => (
         <Column state={item} key={item.id} />
