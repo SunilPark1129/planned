@@ -5,8 +5,8 @@ Go to website - [Link](https://sp-planned.netlify.app/)
 
 ## Project Description
 
-- 
-This is a website-app that allows users to create a daily schedule and go through the steps of executing the schedule, ultimately achieving their goals. I have put maximum consideration into accessibility to ensure that users can easily adapt to the UI. Additionally, I have implemented a drag and drop method to make it easy to use.
+- This is a website-app that allows users to create a daily schedule and go through the steps of executing the schedule, ultimately achieving their goals. I have put maximum consideration into accessibility to ensure that users can easily adapt to the UI. Additionally, I have implemented a drag and drop method to make it easy to use.
+- This website does not store data on the server but instead saves data in the user's local storage. I used the persistence method in Zustand.
 
 ## How to use
 > See how to use this website properly.
@@ -15,13 +15,13 @@ This is a website-app that allows users to create a daily schedule and go throug
 |:--:|:--|
 |Menu|<img src="https://github.com/SunilPark1129/planned/assets/106734133/6cd97e9b-b29c-4fb4-90ef-d3aa9044942d.jpg"><br><br>There are six icons in the menu:<br><br>Add: Adds items and categories.<br>Delete: Removes items and categories.<br>Edit: Modifies the names of items and categories.<br>Plug-in: Groups items into categories or removes items from categories.<br>Help: Allows users to read the manual.<br>Delete All: Deletes all items and categories.|
 |Add|<img src="https://github.com/SunilPark1129/planned/assets/106734133/6676ccbd-2119-449d-9c40-3f63f5ba18c9.jpg"><br><br>Click on the Add icon first to add items. If you have added multiple items, also add a category to group them.|
-|Category Interact|<img src="https://github.com/SunilPark1129/planned/assets/106734133/2344f14d-7cd8-4f13-a5f0-379607412338.jpg"><br><br>Once you have added everything, click on the Plug-in icon to add items to categories.|
-|States ready|<img src="https://github.com/SunilPark1129/planned/assets/106734133/31ba0a65-2ca5-4e52-aba9-2d1d79d7addb.jpg"><br><br>Now, when you look at the screen, you will see that the items have been added to the categories. All the data is stored in the useStore, which is a state management using the Zustand library.|
-|Drag|<img src="https://github.com/SunilPark1129/planned/assets/106734133/0dd418bb-88ec-4cea-a30d-4659b5f3459d.jpg"><br><br>Drag to the right to proceed to the next step.|
-|Delete|<img src="https://github.com/SunilPark1129/planned/assets/106734133/7834c165-4574-4704-aa5f-032ed0efb669.jpg"><br><br>Click on the Delete icon to remove unnecessary items from the list.|
-|Edit|<img src="https://github.com/SunilPark1129/planned/assets/106734133/72d945fc-0701-4d06-92f6-49da97ddbdbb.jpg"><br><br>Click on the Edit icon to change the names of items and categories.|
+|Category Interact|<img src="https://github.com/SunilPark1129/planned/assets/106734133/2344f14d-7cd8-4f13-a5f0-379607412338.jpg" height="400"><br><br>Once you have added everything, click on the Plug-in icon to add items to categories.|
+|States ready|<img src="https://github.com/SunilPark1129/planned/assets/106734133/31ba0a65-2ca5-4e52-aba9-2d1d79d7addb.jpg" height="400"><br><br>Now, when you look at the screen, you will see that the items have been added to the categories. All the data is stored in the useStore, which is a state management using the Zustand library.|
+|Drag|<img src="https://github.com/SunilPark1129/planned/assets/106734133/0dd418bb-88ec-4cea-a30d-4659b5f3459d.jpg" height="400"><br><br>Drag to the right to proceed to the next step.|
+|Delete|<img src="https://github.com/SunilPark1129/planned/assets/106734133/7834c165-4574-4704-aa5f-032ed0efb669.jpg" height="400"><br><br>Click on the Delete icon to remove unnecessary items from the list.|
+|Edit|<img src="https://github.com/SunilPark1129/planned/assets/106734133/72d945fc-0701-4d06-92f6-49da97ddbdbb.jpg" height="400"><br><br>Click on the Edit icon to change the names of items and categories.|
 |Delete All|<img src="https://github.com/SunilPark1129/planned/assets/106734133/1a5a8247-32af-42cb-a7a2-c1837f4a7b61.jpg"><br><br>Click on the Delete All icon to reset and delete all items and categories. It will clear all the values stored in useStore.|
-|Help|<img src="https://github.com/SunilPark1129/planned/assets/106734133/f70099c4-42ca-41a6-a0e5-5c38ef51f761.jpg"><br><br>Click on the Help icon to read the guidelines.|
+|Help|<img src="https://github.com/SunilPark1129/planned/assets/106734133/f70099c4-42ca-41a6-a0e5-5c38ef51f761.jpg" height="400"><br><br>Click on the Help icon to read the guidelines.|
 
 ## Technology Used
 
