@@ -1,0 +1,64 @@
+.column {
+  position: relative;
+  min-height: 10rem;
+  color: #272727;
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: dashed transparent 4px;
+}
+.column > .dot {
+  background-color: var(--COLOR-GRAY);
+}
+.column header {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.column header h3 {
+  font-size: 1rem;
+  color: rgb(70, 78, 94);
+}
+.column header button {
+  all: unset;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  height: -moz-fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.category-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 6px;
+  background-color: rgb(212, 211, 178);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.493);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.category-box > p {
+  display: flex;
+  padding: 0.5rem;
+  color: rgb(75, 80, 87);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-top: 1px solid black;
+  position: absolute;
+  border-radius: 50%;
+  top: 0.5rem;
+  right: 0.5rem;
+}/*# sourceMappingURL=Column.css.map */

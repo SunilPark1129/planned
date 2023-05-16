@@ -1,0 +1,175 @@
+.menu {
+    margin: auto;
+    &__lists {
+        display: flex;
+        gap: 1rem;
+        color: white;
+    }
+    img {
+        cursor: pointer;
+        user-select: none;
+    }
+}
+
+.bg-dark {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(27, 27, 27, 0.747);
+    cursor: pointer;
+    z-index: 90;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4px;
+    gap: 1rem;
+    z-index: 990;
+    padding: 1rem;
+    width: 20rem;
+    justify-content: center;
+    header {
+        color: rgb(58, 58, 58);
+        font-weight: bold;
+        margin: 0 auto;
+    }
+    label {
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+        cursor: pointer;
+    }
+    input[type="radio"] {
+        cursor: pointer;
+        position: relative;
+        appearance: none;
+        width: 1rem;
+        height: 1rem;
+        border: 1px dashed #949494;
+        border-radius: 50%;
+        transition: 0.3s border ease-in-out;
+    }
+    input[type="checkbox"] {
+        cursor: pointer;
+        position: relative;
+        appearance: none;
+        width: 1rem;
+        height: 1rem;
+        border: 1px dashed #949494;
+        transition: 0.3s border ease-in-out;
+    }
+    input[type="radio"]:checked,
+    input[type="checkbox"]:checked {
+        border: 1px solid #949494;
+    }
+    input[type="radio"]::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: transparent;
+        transition: 0.2s background-color ease-in-out;
+        box-shadow: inset 1em 1em var(--form-control-color);
+    }
+    input[type="checkbox"]::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 6px;
+        height: 6px;
+        background-color: transparent;
+        transition: 0.2s background-color ease-in-out;
+        box-shadow: inset 1em 1em var(--form-control-color);
+    }
+    input[type="radio"]:checked::before,
+    input[type="checkbox"]:checked::before {
+        background-color: rgb(54, 66, 201);
+    }
+    span {
+        font-size: 0.7em;
+        margin: auto 0;
+        color: gray;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    &__input-box {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        input[type="text"] {
+            outline: transparent;
+            padding: 4px;
+            background-color: rgb(229, 230, 245);
+            border: 1px dashed rgb(196, 196, 196);
+             :focus {
+                background-color: white;
+                border: 1px solid rgb(196, 196, 196);
+            }
+        }
+    }
+    &__btn-box {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        button {
+            width: 4rem;
+            height: 2rem;
+            background-color: rgb(182, 189, 231);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0px 2px 3px -2px rgba(32, 32, 32, 0.705);
+            border-radius: 4px;
+        }
+    }
+    &__lists {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 18rem;
+        overflow-y: auto;
+    }
+    &__selector {
+        p {
+            font-size: 0.7em;
+            padding: 0.5rem;
+            width: 100%;
+            height: 2rem;
+            align-items: center;
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        button {
+            padding: 0.3rem 1rem;
+            box-shadow: 0px 2px 3px -1px rgba(48, 48, 48, 0.507);
+            cursor: pointer;
+        }
+    }
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        span {
+            all: unset;
+            color: red;
+        }
+    }
+}
