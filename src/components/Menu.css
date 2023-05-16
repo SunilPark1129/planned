@@ -5,6 +5,7 @@
   display: flex;
   gap: 1rem;
   color: white;
+  height: 1.6rem;
 }
 .menu img {
   cursor: pointer;
