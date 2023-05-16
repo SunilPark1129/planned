@@ -31,7 +31,7 @@ Go to website - [Link](https://sp-planned.netlify.app/)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Zustand](https://img.shields.io/badge/zustand-%23323330.svg?style=for-the-badge&logoColor=%23F7DF1E)
 
 ## Installation
 1. Clone the repo
